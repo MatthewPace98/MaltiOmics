@@ -2,7 +2,7 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-@app.route('/', methods=["POST", "GET"])
+@app.route('/')
 def home():
     return render_template('home.html')
 
@@ -13,10 +13,6 @@ def resume():
 @app.route('/projects')
 def projects():
     return render_template('projects.html')
-
-@app.route('/contact')
-def contact():
-    return render_template('contact.html')
 
 @app.route('/misc')
 def misc():

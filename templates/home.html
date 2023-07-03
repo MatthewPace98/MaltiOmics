@@ -1,22 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Matthew's Homepage</title>
-    <link rel="stylesheet" type="text/css" href="/static/css/styles.css">
+    <title>MaltiOmics</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
+
+
+    <link rel="stylesheet" href="static/timesheet.js/dist/timesheet.min.css" />
+<script src="static/timesheet.js/dist/timesheet.min.js"></script>
+
 </head>
-<body>
-    <div class="container text-center">
-        <h1>Hi, I'm Matthew. Welcome to MaltiOmics.</h1>
-        <p>Here's my semi-professional website which I mostly use to experiment with web design.</p>
-        <button onclick="window.location.href='/resume'">About me</button>
-        <button onclick="window.location.href='/projects'">Projects</button>
-        <button onclick="window.location.href='/misc'">Miscelaneous</button>
-        <button onclick="window.location.href='/contact'">Contact Me</button>
+    {% extends "navbar.html" %}
 
-    </div>
+    {% block content %}
+    <h1>Hi, I'm Matthew. Welcome to MaltiOmics.</h1>
+    <p>Here's my semi-professional website which I mostly use to experiment with web design.</p>
 
+    <div id="timeline">
+        <div class="event">
+          <div class="content">
+            <h2>Event 1</h2>
+            <p>Description of the first event.</p>
+          </div>
+        </div>
+        <div class="event">
+          <div class="content">
+            <h2>Event 2</h2>
+            <p>Description of the second event.</p>
+          </div>
+        </div>
+        <!-- Add more events as needed -->
+      </div>
+      
+    <div id="container"></div>
+
+    {% endblock %}    
 </body>
 </html>
+
+
