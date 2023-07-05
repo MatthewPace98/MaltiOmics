@@ -2,41 +2,48 @@
 <html>
 <head>
     <title>MaltiOmics</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="../static/timeline/timesheet.js/other/anychart-core.min.js"></script>
+    <script src="../static/timeline/timesheet.js/other/anychart-data-adapter.min.js"></script>
+    <script src="../static/timeline/timesheet.js/other/anychart-timeline.min.js"></script>
+    <script src="../static/timeline/timeline.js"></script>
+
+
+
+
+
+
+
+
+    <link rel="stylesheet" href="../static/timeline/timeline.css">
+    <link rel="stylesheet" href="../static/css/styles.css">
+    
     <meta charset="UTF-8">
 
-
-    <link rel="stylesheet" href="static/timesheet.js/dist/timesheet.min.css" />
-<script src="static/timesheet.js/dist/timesheet.min.js"></script>
-
 </head>
+<body>
+    
     {% extends "navbar.html" %}
-
     {% block content %}
-    <h1>Hi, I'm Matthew. Welcome to MaltiOmics.</h1>
-    <p>Here's my semi-professional website which I mostly use to experiment with web design.</p>
+    <br><br>
+    <div class="container">
+        <br><br><br><br><br><br><br><br>
+        <h1>Hi, I'm Matthew. Welcome to MaltiOmics.</h1>
+        <p>Here's my semi-professional website where I experiment with web design.</p>
+        
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-    <div id="timeline">
-        <div class="event">
-          <div class="content">
-            <h2>Event 1</h2>
-            <p>Description of the first event.</p>
-          </div>
-        </div>
-        <div class="event">
-          <div class="content">
-            <h2>Event 2</h2>
-            <p>Description of the second event.</p>
-          </div>
-        </div>
-        <!-- Add more events as needed -->
-      </div>
-      
-    <div id="container"></div>
-
+        <div class="timeline" id="container"></div>
+        <br><br><br><br>
+    </div>
+             
     {% endblock %}    
+<!-- 
+    Simple interactive animation of DNA replication/transcription/translation
+    Proteins floating about
+    Proteins entering/exiting cells
+    Virus infecting cells
+-->
 </body>
 </html>
 

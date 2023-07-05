@@ -1,0 +1,53 @@
+{
+    "mainTimeline": [
+                {
+                    "description": "Also from the University of Malta. <br>Mode of attendence was mainly by research, meaning it was actually somewhere between an MSc and an MRes. <br>Dissertation: <i>RNA-seq Analysis of an Acute Myeloid Leukaemia Cell Line Treated with Phenolic Compounds</i>",
+                    "title": "MSc. Bioinformatics",
+                    "start": "2020/10/10",
+                    "end": "2022/10/10"
+                },
+                {
+                    "description": "From the University of Malta. <br>Dissertation: <i>Characterisation of Discards from Otter Bottom Trawls</i>",
+                    "title": "BSc. (Hons) Biology",
+                    "start": "2017/10/05",
+                    "end": "2020/06/30"
+                },
+                {
+                    "description": "I am currently employed with OBT as a Research Associate.",
+                    "title": "OrthoBio Therapeutics",
+                    "start": "2022/11",
+                    "end": "2024/11"
+                },
+                {
+                    "description": "The TargetID project generated RNA-Seq and WGS data from 1000 Maltese individuals. Results were organised into a comprehensive database, queryable with a Flask-based web application.",
+                    "title": "TargetID",
+                    "start": "2021/03/01",
+                    "end": "2022/06/11"
+                },
+                {
+                    "description": "Part-time role as a presenter, giving talks about the resident species.",
+                    "title": "Malta National Aquarium",
+                    "start": "2017/07/20",
+                    "end": "2020/06/10"
+                }
+    ],
+
+    "otherEvents": [
+
+        {
+            "description": "A brief course on Coursera sparked my interest in Bioinformatics.",
+            "title": "Python course",
+            "date": "2020/08/01"
+        },
+        {
+            "description": "Permanently moved from Malta to Cambridgeshire, UK.",
+            "title": "Move to the UK",
+            "date": "2022/06/22"
+        },
+        {
+            "description": "The birth of MaltiOmics.",
+            "title": "Launched this site!",
+            "date": "2023/07/22"
+        }
+    ]
+   }
