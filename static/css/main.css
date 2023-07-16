@@ -1,0 +1,85 @@
+body {
+    background-color: black;
+    color: #0f9b0f;
+}
+.country {
+  color: #d2549a;
+  
+}
+
+.blue {
+  color: #1162a2;
+}
+
+pre {
+  background-color: black;
+    color: #0f9b0f;
+    font-size: 10;
+    font-family: 'Courier New', monospace;
+    line-height: 1.1;
+}
+
+#title {
+    width: 650px;
+    margin: auto;
+}
+#map {
+    width: 920px; /* increasing width moves it to the left, decreasing width moves it to the right */
+    margin: auto;
+}
+
+#competencies{
+  width: 920px; 
+    margin: auto;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: black;
+
+}
+footer a {
+    margin: 0 15px;
+    color: #0a630a;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.5s;
+}
+footer a:hover {
+  color: #0d870d;
+}
+
+.button-container {
+    margin-top: 15px;
+}
+
+button {
+    margin: 10px;
+    margin-top: 1em;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form {
+    /* position: absolute; */
+    display: inline;
+    /* z-index: 99; */
+    width: 90px; /* increasing width moves it to the left, decreasing width moves it to the right */
+    margin: auto;
+}
+
+
+/*
+.container {
+    width: 100%;
+    height: 250px;
+}
+
+ .timeline {
+    display: flex;
+}*/
+
+

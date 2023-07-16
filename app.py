@@ -6,18 +6,6 @@ app = Flask(__name__)
 def home():
     return render_template('home.html')
 
-@app.route('/resume')
-def resume():
-    return render_template('resume.html')
-
-@app.route('/projects')
-def projects():
-    return render_template('projects.html')
-
-@app.route('/misc')
-def misc():
-    return render_template('misc.html')
-
 @app.route('/chat')
 def chat():
     return render_template('chat.html')
