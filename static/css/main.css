@@ -13,13 +13,17 @@ body {
 
 pre {
   background-color: black;
-    color: #0f9b0f;
+    color: #12bd12;
     font-size: 10;
     font-family: 'Courier New', monospace;
     line-height: 1.1;
 }
 
 #title {
+    width: 650px;
+    margin: auto;
+}
+#me {
     width: 650px;
     margin: auto;
 }
