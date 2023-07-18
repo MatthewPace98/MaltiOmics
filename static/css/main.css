@@ -1,6 +1,16 @@
+/*
+    https://asciiart.club/
+    background: #16171b
+    red: #db474d
+    blue:#1162a2
+    green_old:#0f9b0f
+    green_dark:#18824e
+    green_light:#21b568
+    pink:#d2549a
+*/
+
 body {
-    background-color: black;
-    color: #0f9b0f;
+    background-color: rgb(0, 0, 0);
 }
 .country {
   color: #d2549a;
@@ -8,12 +18,12 @@ body {
 }
 
 .blue {
-  color: #1162a2;
+  color: #1472ba;
+  font: bold;
 }
 
 pre {
-  background-color: black;
-    color: #12bd12;
+    color: #13c413;
     font-size: 10;
     font-family: 'Courier New', monospace;
     line-height: 1.1;
@@ -24,7 +34,7 @@ pre {
     margin: auto;
 }
 #me {
-    width: 650px;
+    width: 800px;
     margin: auto;
 }
 #map {
@@ -65,14 +75,6 @@ button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-}
-
-form {
-    /* position: absolute; */
-    display: inline;
-    /* z-index: 99; */
-    width: 90px; /* increasing width moves it to the left, decreasing width moves it to the right */
-    margin: auto;
 }
 
 
