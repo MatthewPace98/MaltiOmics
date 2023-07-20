@@ -37,8 +37,13 @@ pre {
     width: 800px;
     margin: auto;
 }
+
+.sea {
+    color: #043704;
+  }
+
 #map {
-    width: 920px; /* increasing width moves it to the left, decreasing width moves it to the right */
+    width: 920px;
     margin: auto;
 }
 
@@ -54,19 +59,10 @@ footer {
     background-color: black;
 
 }
-footer a {
-    margin: 0 15px;
-    color: #0a630a;
-    text-decoration: none;
-    padding: 10px;
-    transition: color 0.5s;
-}
-footer a:hover {
-  color: #0d870d;
-}
+
 
 .c_text {
-    color: #0fe9de;
+    color: white;
 }
 
 .c_low {
@@ -81,4 +77,26 @@ footer a:hover {
     color: #fc4444;
 }
 
+p {
+    font-size: 3px;
+    line-height: 1.0; 
+    margin: 0;
+
+
+}
+
+footer a {
+    margin: 0 15px;
+    color: #0e930e;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.5s;
+    font-size: 3px;
+    line-height: 1.0; 
+    margin: 0;
+    padding: 0; 
+}
+footer a:hover {
+  color: #13c413;
+}
 
