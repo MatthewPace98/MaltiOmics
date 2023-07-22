@@ -22,6 +22,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
   
       mapElement.innerHTML = newMapText;
       counter++;
-    }, 1200);
+    }, 400);
   
   });
