@@ -1,16 +1,6 @@
-/*
-    https://asciiart.club/
-    background: #16171b
-    red: #db474d
-    blue:#1162a2
-    green_old:#0f9b0f
-    green_dark:#18824e
-    green_light:#21b568
-    pink:#d2549a
-*/
-*{
-  font-family: 'Courier New', monospace;
 
+* {
+  font-family: 'Courier New', monospace;
 }
 
 body {
@@ -29,56 +19,54 @@ body {
 }
 
 pre {
-    color: #13c413;
-    font-size: 10;
-    line-height: 1.1;
-    font-family: 'Courier New', monospace;
-
+  color: #13c413;
+  font-size: 10;
+  line-height: 1.1;
+  font-family: 'Courier New', monospace;
 }
 
 #me {
-    width: 800px;
-    margin: auto;
+  width: 800px;
+  margin: auto;
 }
 
 .sea {
-    color: #043704;
+  color: #043704;
   }
 
 #map {
-    width: 920px;
-    margin: auto;
+  width: 920px;
+  margin: auto;
 }
 
 #competencies{
   width: 950px; 
-    margin: auto;
+  margin: auto;
 }
 
 footer {
-    padding: 10px;
-    text-align: center;
-    margin-top: 20px;
-    background-color: black;
-
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+  background-color: black;
 }
 
 
 .c_text {
-    color: #c6c6c6;
+    color: #dadada;
 }
 
 footer a {
-    margin: 0 15px;
-    color: #0e930e;
-    text-decoration: none;
-    padding: 10px;
-    transition: color 0.5s;
-    font-size: 3px;
-    line-height: 1.0; 
-    margin: 0;
-    padding: 0; 
-    font-size: 3px;
+  margin: 0 15px;
+  color: #0e930e;
+  text-decoration: none;
+  padding: 10px;
+  transition: color 0.5s;
+  font-size: 3px;
+  line-height: 1.0; 
+  margin: 0;
+  padding: 0; 
+  font-size: 3px;
 }
 
 footer a:hover {

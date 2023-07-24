@@ -1,3 +1,5 @@
+// Animates competency bars
+
 document.addEventListener('DOMContentLoaded', (event) => {
 
     function animateBar(elementId, maxBarWidth) {
@@ -23,10 +25,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
         let observer = new IntersectionObserver((entries, observer) => {
             entries.forEach(entry => {
                 if(entry.isIntersecting) {
-                    animateBar('r', 29);
-                    animateBar('python', 29);
+                    animateBar('r', 28);
+                    animateBar('python', 28);
                     animateBar('bash', 32);
-                    animateBar('web', 23);
+                    animateBar('web', 21);
                     animateBar('latex', 19);
                     animateBar('rna', 33);
                     animateBar('wgs', 19);
