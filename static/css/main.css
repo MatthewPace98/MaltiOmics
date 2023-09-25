@@ -25,9 +25,14 @@ pre {
   overflow: hidden;
 }
 
+#title-mid {
+  margin-top:50px
+}
+
 #me {
   width: 800px;
   margin: auto;
+  height: 800px;
 }
 
 .sea {
@@ -37,11 +42,13 @@ pre {
 #map {
   width: 920px;
   margin: auto;
+  height: 1200px;
 }
 
 #competencies{
   width: 950px; 
   margin: auto;
+  height: 500px;
 }
 
 footer {
