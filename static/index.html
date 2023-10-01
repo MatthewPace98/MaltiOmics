@@ -173,6 +173,36 @@ The personal website of <b>Matthew Pace</b>.
 
 
 
+<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+  const container = document.getElementById('container');
+  const motif = [
+    '-. .-.   .-. .-.   .-. .-.   .  ',
+    '||\\|||\\ /|||\\|||\\ /|||\\|||\\ /|',
+    '|/ \\|||\\|||/ \\|||\\|||/ \\|||\\||',
+    '~   `-~ `-`   `-~ `-`   `-~ `-'
+  ].join('\n');
+
+  let fullPattern = '';
+  const interval = setInterval(function() {
+    fullPattern += motif;
+    container.textContent = fullPattern;
+    const containerWidth = container.clientWidth;
+    const bodyWidth = document.body.clientWidth;
+
+    // Expand container's width gradually
+    if (containerWidth < 0.8 * bodyWidth) {
+      container.style.width = containerWidth + 10 + 'px';
+    } else {
+      clearInterval(interval);
+    }
+  }, 500); // 500 milliseconds interval for growing the pattern.
+});
+</script>
+
+<div id="container"></div>
+
 <pre style="text-align: center;">
                                   ┌────────────┐                                  
 `'-.,_,.='``'-.,_,.-'``'-.,_,.='``│ Contact me │``'-.,_,.-'``'-.,_,.='``'-.,_,.-'`
