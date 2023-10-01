@@ -34,6 +34,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     animateBar('wgs', 19);
                     animateBar('crispr', 28); 
                     animateBar('git', 25); 
+                    animateBar('ai', 19); 
     
                     observer.unobserve(entry.target); // Stop observing once the animation is started
                 }
