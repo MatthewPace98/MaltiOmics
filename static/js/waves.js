@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     setInterval(() => {
       let newMapText = "";
       for (let i = 0; i < mapText.length; i++) {
-        if (mapText[i] === " ") {
+        if (mapText[i] === "^") {
           let char = sea[(i + counter) % seaLength];
           newMapText += `<span class="sea">${char}</span>`;
         } else {
