@@ -35,16 +35,6 @@ pre {
   height: 800px;
 }
 
-.sea {
-  color: #043704;
-  }
-
-#map {
-  width: 920px;
-  margin: auto;
-  height: 1200px;
-}
-
 #competencies{
   width: 950px; 
   margin: auto;
@@ -56,6 +46,25 @@ footer {
   text-align: center;
   margin-top: 20px;
   background-color: black;
+}
+
+.sea {
+  color: #043704;
+  }
+
+.ascii-content, .ascii-border {
+  position: absolute;
+}
+
+.ascii-container {
+  position: relative;
+  height: 1200px;
+  width: 920px;
+  margin: auto;
+}
+
+.ascii-border {
+  color: rgb(110, 110, 110);
 }
 
 .c_text {
