@@ -1,4 +1,8 @@
 # MaltiOmics
+<a>
+  <img src="https://github.com/MatthewPace98/MaltiOmics/assets/74971601/38c64f42-dafb-493f-83ea-f0153b59403c" align="right" style="width: 50%;">
+</a>
+
 Welcome to the repo for my text-only, ASCII-wave website. Check it out at https://MaltiOmics.com! 
 
 ### The name
