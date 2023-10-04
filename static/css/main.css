@@ -71,6 +71,10 @@ footer {
     color: #dadada;
 }
 
+#contact_header {
+  text-align: center;
+}
+
 footer a {
   margin: 0 15px;
   color: #0e930e;
@@ -88,3 +92,10 @@ footer a:hover {
   color: #13c413;
 }
 
+footer {
+  display: flex; 
+  justify-content: space-between; 
+  padding-left: 30%; 
+  padding-right: 30%;
+
+}
