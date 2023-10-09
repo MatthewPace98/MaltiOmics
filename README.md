@@ -1,7 +1,7 @@
 # MaltiOmics
-<img src="https://github.com/MatthewPace98/MaltiOmics/assets/74971601/38c64f42-dafb-493f-83ea-f0153b59403c" align="right" style="width: 150px;">
+<img src="https://github.com/MatthewPace98/MaltiOmics/assets/74971601/38c64f42-dafb-493f-83ea-f0153b59403c" align="right" style="width: 160px;">
 
-Welcome to the repo for my text-only, ASCII-wave website. Check it out at https://MaltiOmics.com! 
+Welcome to the repo for my text-only, ASCII-wave website.
 
 ### The name
 This may go over people's head unless the person is also a Maltese analyst of biological data. It is a pun for _Multi_-omics which is the analysis of multiple "-omes" (the genome, proteome, transcriptome), i.e., analysis of multiple aspects of a living organism. "Malti", as you may have guessed, means "Maltese" in my native language.
