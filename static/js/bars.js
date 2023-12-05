@@ -1,34 +1,44 @@
 // Animates competency bars
 
-document.addEventListener('DOMContentLoaded', (event) => {
+let barsCheckAsciiLoaded = function(callback) {
+    let checkInterval = setInterval(() => {
+      if (window.fetchAsciiDone) {
+        clearInterval(checkInterval);  // Stop checking once fetch_ascii is done
+        callback();
+      }
+      console.log(window.fetchAsciiDone)
+    }, 1000);  // fetch_ascii checking interval
+  };
 
-    function animateBar(elementId, maxBarWidth) {
-        const element = document.getElementById(elementId);
+function animateBar(elementId, maxBarWidth) {
+    const element = document.getElementById(elementId);
+
+    function updateBar() {
+        let currentWidth = element.textContent.replace(/ /g, '').length;
     
-        function updateBar() {
-            let currentWidth = element.textContent.replace(/ /g, '').length;
-        
-            if (currentWidth < maxBarWidth) {
-                currentWidth++;
-        
-                let redBars = currentWidth > 30 ? '|'.repeat(currentWidth - 30) : '';
-                let yellowBars = currentWidth > 25 ? '|'.repeat(Math.min(currentWidth, 30) - 25) : '';
-                let remainingBars = '|'.repeat(Math.min(currentWidth, 25));
-        
-                element.innerHTML =
-                    '<span class="c_low">' + remainingBars + '</span>' +
-                    '<span style="color: yellow;">' + yellowBars + '</span>' +
-                    '<span style="color: red;">' + redBars + '</span>' +
-                    ' '.repeat(element.textContent.length - currentWidth);
-            } else {
-                clearInterval(intervalId); // Stop updating when bar is full
-            }
-        }             
+        if (currentWidth < maxBarWidth) {
+            currentWidth++;
     
-        // Update the bar
-        const intervalId = setInterval(updateBar, 70);
-    }
+            let redBars = currentWidth > 30 ? '|'.repeat(currentWidth - 30) : '';
+            let yellowBars = currentWidth > 25 ? '|'.repeat(Math.min(currentWidth, 30) - 25) : '';
+            let remainingBars = '|'.repeat(Math.min(currentWidth, 25));
     
+            element.innerHTML =
+                '<span class="c_low">' + remainingBars + '</span>' +
+                '<span style="color: yellow;">' + yellowBars + '</span>' +
+                '<span style="color: red;">' + redBars + '</span>' +
+                ' '.repeat(element.textContent.length - currentWidth);
+        } else {
+            clearInterval(intervalId); // Stop updating when bar is full
+        }
+    }             
+
+    // Update the bar
+    const intervalId = setInterval(updateBar, 70);
+}
+
+
+    barsCheckAsciiLoaded(function() {
         let observer = new IntersectionObserver((entries, observer) => {
             entries.forEach(entry => {
                 if(entry.isIntersecting) {
