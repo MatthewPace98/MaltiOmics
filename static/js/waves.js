@@ -4,7 +4,6 @@ let wavesCheckAsciiLoaded = function(callback) {
       clearInterval(checkInterval);  // Stop checking once fetch_ascii is done
       callback();
     }
-    console.log(window.fetchAsciiDone)
   }, 1000);  // fetch_ascii checking interval
 };
 

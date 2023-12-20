@@ -4,7 +4,6 @@ let blinkCheckAsciiLoaded = function(callback) {
       clearInterval(checkInterval);  // Stop checking once fetch_ascii is done
       callback();
     }
-    console.log(window.fetchAsciiDone)
   }, 100);  // fetch_ascii checking interval
 };
 
