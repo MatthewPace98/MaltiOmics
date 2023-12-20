@@ -1,5 +1,10 @@
+@font-face {
+  font-family: 'CustomCourier';
+  src: url('../media/cour.ttf') format('truetype');
+}
+
 * {
-  font-family: 'Courier New', monospace !important;
+  font-family: 'CustomCourier', 'Courier New', monospace !important;
 }
 
 body {
