@@ -1,0 +1,23 @@
+html::-webkit-scrollbar {
+    width: 20px;
+}
+
+html::-webkit-scrollbar-track {
+    border-left: 1px solid #13c413;
+    background-image: radial-gradient(#0e930e 1px, transparent 0);
+    background-size: 5px 5px;
+    background-position: 0px 0px;
+}
+
+
+html::-webkit-scrollbar-thumb {
+  border: 2px solid #13c413;
+  background: black;
+}
+
+
+/* For Firefox */
+html {
+    scrollbar-width: thin; 
+    scrollbar-color: #13c413;
+}
