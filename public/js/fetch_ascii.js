@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 
     for (let file in locations) {
-        fetch(`static/ascii/${file}.html`)
+        fetch(`ascii/${file}.html`)
             .then(response => response.text())
             .then(data => {
                 locations[file](data);
